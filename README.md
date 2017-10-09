@@ -1,6 +1,6 @@
 ## Инструкция по этапам разработки:
 1. Переходим в корень диска c:  cd..  cd..
-2. Клонируем config например в папку fresh: https://github.com/mapledrive/config.git fresh
+2. Клонируем config например в папку fresh: git clone https://github.com/mapledrive/config.git fresh
 3. Переходим в папку fresh :   cd fresh
 4. Устанавливаем все пакеты npm install
 5. Запускаем сервер для разработки npm run dev
