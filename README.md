@@ -1,11 +1,3 @@
-## Instructions to run
-1. Navigate to folder */collider*
-2. *NPM install*
-3. *NPM run dev*
-4. Navigate to localhost:8080
-
-
-
 ## Инструкция по этапам разработки:
 1. Переходим в корень диска c:  cd..  cd..
 2. Клонируем config например в папку fresh: https://github.com/mapledrive/config.git fresh
