@@ -21,7 +21,12 @@ module.exports = {
         test: /\.(jpg|png|svg)$/,
         loader: "url-loader",
         query: { mimetype: "image/png" }
-      }
+      },
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      { 
+      	test: /\.(ttf|otf|eot|svg|woff)$/, 
+        loader: 'file-loader?name=fonts/[name].[ext]' 
+  	  }
     ]
   },
   output: {
