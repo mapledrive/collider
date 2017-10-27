@@ -8,7 +8,3 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'));
-body {
-  margin: 0;
-  padding: 0;
-}
